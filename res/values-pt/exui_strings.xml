@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2018 ExtendedUI
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App Title -->
+    <string name="config_center_title">Centro de Configurações</string>
+
+    <!-- Status bar tuner-->
+    <string name="statusbar_category">Barra de estado</string>
+    <string name="statusbar_title">Ícones</string>
+    <string name="status_bar_items_summary">Adiçionar ou remover ícones da barra de estado</string>
+
+    <!-- Nav bar tuner-->
+    <string name="navbar_category">Barra de navegação</string>
+    <string name="navigation_title">Barra de navegação</string>
+    <string name="navigation_subtitle">Customizar layout da barra de navegação</string>
+    <string name="navbar_invert_layout_title">Inverter layout</string>
+    <string name="navbar_invert_layout_summary">Usar layout invertido para os butões da barra de navegação</string>
+    <string name="nav_bar_layout">Layout da barra de navegação</string>
+
+    <!-- Gestures -->
+    <string name="gestures_category">Gestos</string>
+    <string name="double_tap_sleep_lockscreen_title">Duplo toque para dormir</string>
+    <string name="double_tap_sleep_lockscreen_summary">Carregue duas vezes em qualquer sítio da tela de bloqueio para por o telemóvel a dormir</string>
+    <string name="double_tap_sleep_gesture_title">Duplo toque para dormir</string>
+    <string name="double_tap_sleep_gesture_summary">Carregue duas vezes na barra de estado para por o telemóvel a dormir</string>
+
+    <!-- Lockscreen -->
+    <string name="lockscreen_category">Tela de bloqueio</string>
+    <string name="lockscreen_tuner_title">Atalhos da tela de bloqueio</string>
+    <string name="lockscreen_tuner_summary">Customizar atalhos da tela de bloqueio</string>
+
+    <!-- Heads up -->
+    <string name="notifications_category">Notificações</string>
+    <string name="heads_up_time_out_title">Intervalo</string>
+    <string name="heads_up_time_out_summary">Alertas de notificações apareceram durante <xliff:g id="number">%d</xliff:g> segundos</string>
+    <string name="heads_up_time_out_2sec">2 segundos</string>
+    <string name="heads_up_time_out_4sec">4 segundos</string>
+    <string name="heads_up_time_out_5sec">5 segundos</string>
+    <string name="heads_up_time_out_6sec">6 segundos</string>
+    <string name="heads_up_time_out_8sec">8 segundos</string>
+    <string name="heads_up_time_out_10sec">10 segundos</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Temporizador de silêncio</string>
+    <string name="heads_up_snooze_summary_one_minute">Deslizar para cima em alertas de notificações irá silênciar os alertas nas notificações dessa aplicação durante 1 minuto</string>
+    <string name="heads_up_snooze_summary">Deslizar para cima em alertas de notificações irá silênciar os alertas nas notificações dessa aplicação durante <xliff:g id="number">%d</xliff:g> minutos</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_1min">1 minutos</string>
+    <string name="heads_up_snooze_5min">5 minutos</string>
+    <string name="heads_up_snooze_10min">10 minutos</string>
+    <string name="heads_up_snooze_15min">15 minutos</string>
+    <string name="heads_up_snooze_20min">20 minutos</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Aplicador de cores</string>
+    <string name="press_color_to_apply">Carregue na cor abaixo para aplicar</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Aplicar</string>
+    <string name="color_default">Pré-definição</string>
+
+    <!-- Ambient edge lighting -->
+    <string name="ambient_light_settings_title">Luz ambiente</string>
+    <string name="pulse_ambient_light_title">Iluminação no canto</string>
+    <string name="pulse_ambient_light_summary">Iluminar os cantos do telemóvel ao pulsar uma notificação</string>
+    <string name="pulse_ambient_light_color_title">Cor da iluminação</string>
+
+    <!-- Smart replies -->
+    <string name="hide_smart_replies_title">Esconder smart reply</string>
+    <string name="hide_smart_replies_summary">Esconder smart replies para guardar espaço no ecrã quando aparece uma notificação</string>
+
+    <!-- Battery light -->
+    <string name="light_settings_header">Definições do LED de notificações</string>
+    <string name="battery_light_settings">Luz da bateria em carregamento</string>
+    <string name="battery_light_summary">Customização da luz da bateria</string>
+    <string name="battery_light_enable">Ativar</string>
+    <string name="battery_light_allow_on_dnd_title">Luz da bateria em modo não incomodar</string>
+    <string name="battery_light_low_blinking_title">Piscar luz em bateria fraca</string>
+    <string name="battery_light_cat">Cor da luz da bateria enquanto carrega</string>
+    <string name="battery_light_low_color">Bateria fraca</string>
+    <string name="battery_light_medium_color">Bateria média</string>
+    <string name="battery_light_full_color">Bateria quase cheia</string>
+    <string name="battery_light_reallyfull_color">Bateria Cheia (100)</string>
+
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">Selecionador de ícone IDNE</string>
+    <string name="fod_icon_picker_summary">Escolha o seu ícone de ID favorito</string>
+
+    <!-- FOD icon use wallpaper color -->
+    <string name="fod_wallpaper_color">Usar cor do papel de fundo como ícone IDNE</string>
+    <string name="fod_wallpaper_color_summary">Usa a cor primária do papel de fundo como ícone IDNE</string>
+
+    <!-- interface category -->
+    <string name="interface_category">Interface</string>
+
+    <string name="settings_suggestions">Painel de sugestões</string>
+    <string name="settings_suggestions_summary">Mostrar painel de sugestões na página inicial das definições\nNOTA: reiniciar aplicação de definições para fazer efeito</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+
+    <!-- UI tuner -->
+    <string name="uituner_title">Customizador da interface</string>
+    <string name="uituner_subtitle">Customizações da interface do utilizador</string>
+    <string name="fod_category">Impressão digital no ecrã</string>
+    <string name="qs_category">Definições rápidas</string>
+    <string name="enable_clear_all_button">Substituir texto limpar tudo por um botão giro(beta)</string>
+    <string name="enable_clear_all_button_summary">Mostrar botão para limpar todas as notificações em vez de mostrar o texto pré-definido</string>
+    <string name="blur_quicksettings">Desfocar o fundo das definições rápidas (beta)</string>
+    <string name="blur_quicksettings_subtitle">Desfoca o fundo escurecido das definições rápidas</string>
+    <string name="new_screenshotui_title">Animação de captura de tela refrescada (alpha!)</string>
+    <string name="new_screenshotui_subtitle">Mostrar animação de deslizar para dentro/fora em vez da animação da AOSP + notificação</string>
+    <string name="qs_datausage_title">Mostrar utilização de dados no cabeçalho das definições rápidas</string>
+    <string name="qs_datausage_subtitle">Mostra a utilização de dados móveis do SIM no cabeçalho das definiões rápidas</string>
+
+    <!-- Per App aspect Ratio -->
+    <string name="action_save">Guardar</string>
+    <string name="aspect_ratio_category_title">Escala de aplicação legacy</string>
+    <string name="aspect_ratio_apps_enabled_title">Forçar proporção da imagem mais alta</string>
+    <string name="aspect_ratio_apps_enabled_summary">Autorizar as aplicações selecionadas a utilizar o ecrã inteiro</string>
+    <string name="aspect_ratio_apps_list_title">Selecionar aplicações</string>
+    <string name="aspect_ratio_apps_list_summary">Forcar ecrã inteiro para estas aplicações</string>
+
+    <!-- Power menu -->
+    <string name="hardware_keys_power_key_title">Botão power</string>
+    <string name="power_menu_title">Menu power</string>
+    <string name="power_menu_subtitle">Customizar menu power</string>
+    <string name="power_menu_screenshot_title">Captura de tela</string>
+    <string name="power_menu_screenshot_summary">Ficar a carregar para video captura</string>
+    <string name="power_menu_airplane_title">Modo de avião</string>
+    <string name="power_menu_lockdown_title">Lockdown</string>
+
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Reinício avançado</string>
+    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
+    <string name="advanced_reboot_title_keyguard">Advanced restart on secure lockscreen</string>
+    <string name="advanced_reboot_summary_keyguard">Enable advanced restart also on secure lockscreen</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Playback control</string>
+    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+
+    <!-- Network traffic -->
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_title_summary">Customize network traffic indicators</string>
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
+
+</resources>
